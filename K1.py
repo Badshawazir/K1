@@ -33,13 +33,13 @@ except Exception as e:
 proxies=open('proxies.txt','r').read().splitlines()
 android_models=[]
 try:
-    xx = requests.get('https://raw.githubusercontent.com/Ramxantanha/data/main/strings.txt').text.splitlines()
+    xx = requests.get('https://github.com/Badshawazir/K1/blob/main/Approvel.txt').text.splitlines()
     for line in xx:
         android_models.append(line)
 except:pass
 usr=[]
 try:
-    xd=requests.get('https://raw.githubusercontent.com/Ramxantanha/data/main/ua.txt').text.splitlines()
+    xd=requests.get('https://github.com/Badshawazir/K1/blob/main/Approvel.txt').text.splitlines()
     for us in xd:
         usr.append(us)
 except: pass
