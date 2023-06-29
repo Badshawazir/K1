@@ -26,20 +26,20 @@ except ModuleNotFoundError:
  
 fbks=('com.facebook.adsmanager','com.facebook.lite','com.facebook.orca','com.facebook.katana')
 try:
-    prox= requests.get('https://github.com/Badshawazir/K1/blob/main/Approvel.txt').text
-    open('Approvel.txt','w').write(proxies)
+    prox= requests.get('https://raw.githubusercontent.com/Badshawazir/K1/main/Apr.txt').text
+    open('Apr.txt','w').write(proxies)
 except Exception as e:
     print('')
-proxies=open('Approvel.txt','r').read().splitlines()
+proxies=open('Apr.txt','r').read().splitlines()
 android_models=[]
 try:
-    xx = requests.get('https://github.com/Badshawazir/K1/blob/main/Approvel.txt').text.splitlines()
+    xx = requests.get('https://raw.githubusercontent.com/Badshawazir/K1/main/Apr.txt').text.splitlines()
     for line in xx:
         android_models.append(line)
 except:pass
 usr=[]
 try:
-    xd=requests.get('https://raw.githubusercontent.com/Ramxantanha/data/main/ua.txt').text.splitlines()
+    xd=requests.get('https://raw.githubusercontent.com/Badshawazir/K1/main/Apr.txt').text.splitlines()
     for us in xd:
         usr.append(us)
 except: pass
