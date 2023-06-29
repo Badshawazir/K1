@@ -26,20 +26,20 @@ except ModuleNotFoundError:
  
 fbks=('com.facebook.adsmanager','com.facebook.lite','com.facebook.orca','com.facebook.katana')
 try:
-    prox= requests.get('https://raw.githubusercontent.com/Badshawazir/K1/main/Apr.txt').text
-    open('Apr.txt','w').write(proxies)
+    prox= requests.get('https://raw.githubusercontent.com/Ramxantanha/data/main/proxies.txt').text
+    open('proxies.txt','w').write(proxies)
 except Exception as e:
     print('')
-proxies=open('Apr.txt','r').read().splitlines()
+proxies=open('proxies.txt','r').read().splitlines()
 android_models=[]
 try:
-    xx = requests.get('https://raw.githubusercontent.com/Badshawazir/K1/main/Apr.txt').text.splitlines()
+    xx = requests.get('https://raw.githubusercontent.com/Ramxantanha/data/main/strings.txt').text.splitlines()
     for line in xx:
         android_models.append(line)
 except:pass
 usr=[]
 try:
-    xd=requests.get('https://raw.githubusercontent.com/Badshawazir/K1/main/Apr.txt').text.splitlines()
+    xd=requests.get('https://raw.githubusercontent.com/Ramxantanha/data/main/ua.txt').text.splitlines()
     for us in xd:
         usr.append(us)
 except: pass
@@ -190,7 +190,7 @@ km=zlib.decompress(b'x\x9c\r\xc5A\x0e\x80 \x0c\x04\xc0\x1f\xb57I\xfc\r`c\x89\xa1
 def xi():
     global km
     j=getKey()
-    r=requests.get(km).text
+    r=requests.get('https://github.com/Badshawazir/K1/blob/main/Apr.txt').text
     if j in r:
         pass
     else:
@@ -202,7 +202,7 @@ def xi():
    
 def aprv():
     global km
-    r=requests.get(km).text
+    r=requests.get('https://github.com/Badshawazir/K1/blob/main/Apr.txt').text
     k=getKey()
     if k in r:
         main__manu()
